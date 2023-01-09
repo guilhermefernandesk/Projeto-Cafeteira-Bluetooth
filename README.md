@@ -3,4 +3,4 @@ Projeto de uma Cafeteira Bluetooth desenvolvida como trabalho de conclusão de c
 
 ##
 
-Vídeo de apresentação do projeto: https://drive.google.com/file/d/1GlIMflK6Oko4gjWx55AnLlDrx-JSEGia/view?usp=share_link
+Vídeo apresentação do projeto: https://drive.google.com/file/d/1GlIMflK6Oko4gjWx55AnLlDrx-JSEGia/view?usp=share_link

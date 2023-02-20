@@ -17,7 +17,7 @@ class PrepNow extends StatefulWidget {
 class _PrepNowState extends State<PrepNow> {
   selecao _selecao = selecao.padrao;
 
-  bool _isEspresso() => _selecao == selecao.espresso;
+  bool _isExpresso() => _selecao == selecao.espresso;
   bool _isLungo() => _selecao == selecao.lungo;
 
   late String _timeString;
@@ -99,13 +99,13 @@ class _PrepNowState extends State<PrepNow> {
                             top: 5,
                             bottom: 5,
                           ),
-                          child: Text('ESPRESSO',
-                              style: _isEspresso()
+                          child: Text('EXPRESSO',
+                              style: _isExpresso()
                                   ? TextStyle(color: Colors.green)
                                   : TextStyle(color: Colors.white)),
                         ),
                         Text('40 ML',
-                            style: _isEspresso()
+                            style: _isExpresso()
                                 ? TextStyle(color: Colors.green)
                                 : TextStyle(color: Colors.white)),
                       ],
